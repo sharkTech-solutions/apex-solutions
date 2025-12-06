@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Twitter, Linkedin, Github } from "lucide-react";
+import { Instagram, Linkedin, Github } from "lucide-react";
 
 const Footer = () => {
   // Types
@@ -33,14 +33,17 @@ const Footer = () => {
 
   const socialLinks: SocialLink[] = [
     {
-      icon: Twitter,
-      href: "https://www.linkedin.com/in/davi-p-oliveira-a44705218/",
-      label: "Twitter",
+      icon: Instagram,
+      href: "https://www.instagram.com/sharkfuse",
+      label: "Instagram",
     },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
+    { icon: Linkedin,
+      href: "https://www.linkedin.com/in/felippecorrea/",
+      label: "LinkedIn" 
+    },
     {
       icon: Github,
-      href: "https://github.com/davi-p-oliveira-11",
+      href: "https://github.com/sharkTech-solutions",
       label: "GitHub",
     },
   ];
@@ -53,7 +56,7 @@ const Footer = () => {
           {/* Logo + Description */}
           <div className="md:col-span-1">
             <Image
-              src="/images/logo.svg"
+              src="/images/lynx-logo-white-transparent.svg"
               alt="Logo"
               width={120}
               height={40}
@@ -87,15 +90,15 @@ const Footer = () => {
         {/* Divider */}
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-gray-400 text-sm text-center sm:text-left">
-            © {new Date().getFullYear()} Voltaris Digital Solutions. All rights
+            © {new Date().getFullYear()} Shark Tech Solutions. All rights
             reserved. | Developed by{" "}
             <Link
-              href="https://www.linkedin.com/in/davi-p-oliveira-a44705218/"
+              href="https://www.linkedin.com/company/shark-teck-solution"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-[#2B59FF] transition-colors duration-200 font-medium"
             >
-              Davi P. Oliveira
+              Shark Tech Solutions
             </Link>
           </p>
 

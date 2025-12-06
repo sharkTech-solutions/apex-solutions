@@ -30,8 +30,8 @@ interface NavbarData {
 
 const navbarData: NavbarData = {
   logo: {
-    src: "/images/logo.svg",
-    alt: "Stract Mixland Logo",
+    src: "/images/lynx-logo-white-transparent.svg",
+    alt: "Lynx Studio Logo",
   },
   links: [
     { label: "Features", href: "#features" },

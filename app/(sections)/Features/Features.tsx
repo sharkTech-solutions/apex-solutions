@@ -45,7 +45,7 @@ const Features = () => {
                text-2xl sm:text-3xl md:text-5xl"
           style={{ fontFamily: "var(--font-space-grotesk)" }}
         >
-          Mixland helps you <br /> build beautiful websites
+          Lynx helps you <br /> build beautiful websites
         </h3>
       </div>
 

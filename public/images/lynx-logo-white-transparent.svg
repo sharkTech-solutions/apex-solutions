@@ -1,0 +1,9 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" id="svg-white" width="100%" height="100%" viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <style>
+                                @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@800&amp;display=swap');
+                                .logo-text { font-family: 'Outfit', sans-serif; font-weight: 800; letter-spacing: -0.04em; }
+                            </style>
+                        </defs>
+                        <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" fill="#FFFFFF" font-size="110" class="logo-text">lynx</text>
+                    </svg>
